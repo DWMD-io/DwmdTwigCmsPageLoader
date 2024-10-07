@@ -1,0 +1,34 @@
+{
+    "name": "dwmd/twig-cms-page-loader",
+    "description": "DwmdTwigCmsPageLoader",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DWMD",
+            "homepage": "https://dwmd.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dwmd\\TwigCmsPageLoader\\": "src/"
+        }
+    },
+    "require": {
+        "shopware/core": ">=6.5.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "Dwmd\\TwigCmsPageLoader\\DwmdTwigCmsPageLoader",
+        "label": {
+            "de-DE": "DWMD Erlebniswelt in Twig laden",
+            "en-GB": "DWMD load cms page in twig"
+        },
+        "copyright": "(c) by DWMD",
+        "plugin-icon": "src/Resources/config/plugin.png",
+        "description": {
+            "de-DE": "Erlebniswelt in Twig laden",
+            "en-GB": "Load cms page in twig"
+        }
+    }
+}
